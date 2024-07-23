@@ -1,10 +1,19 @@
 import { AdversitingBanner } from "@/components/Sessions/AdversitingBanner";
-import Image from "next/image";
+import { BuildYourFutureSession } from "@/components/Sessions/BuildYourFutureSession";
+import { CreatingTomorrowBanner } from "@/components/Sessions/CreatingTomorrowBanner";
+import { MissionVisionSession } from "@/components/Sessions/MissionVisionSession";
+import { StatisticsSession } from "@/components/Sessions/StatisticsSession";
+import { UniqueJourneySession } from "@/components/Sessions/UniqueJourneySession";
 
 export default function Home() {
   return (
     <div className="flex flex-col">
       <AdversitingBanner />
+      <CreatingTomorrowBanner />
+      <StatisticsSession />
+      <BuildYourFutureSession />
+      <MissionVisionSession />
+      <UniqueJourneySession />
     </div>
   );
 }

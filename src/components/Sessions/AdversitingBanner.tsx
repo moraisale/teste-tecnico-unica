@@ -14,10 +14,10 @@ export const AdversitingBanner = () => {
         />
       </div>
       <div className="flex flex-col w-full xl:pl-[126px] max-w-[316px] xl:max-w-full ">
-        <p className="text-2xl xl:text-[60px] font-normal xl:leading-[75px] xl:max-w-[747px]">
+        <p className="text-2xl xl:text-[60px] xl:leading-[75px] xl:max-w-[747px]">
           CONHEÇA A FACULDADE ÚNICA
         </p>
-        <p className={`flex xl:hidden text-[22px] font-normal`}>
+        <p className={`flex xl:hidden text-[22px]`}>
           Criando hoje o seu amanhã.
         </p>
       </div>
