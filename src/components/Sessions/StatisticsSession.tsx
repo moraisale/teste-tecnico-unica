@@ -21,7 +21,7 @@ export const StatisticsSession = () => {
         </p>
       </div>
       <div
-        className={`flex flex-col items-center xl:flex-row xl:justify-center gap-9 pt-[71px] pb-[45px] ${poppins.className}`}
+        className={`flex flex-col items-center xl:flex-row lg:justify-between lg:px-[124px] gap-9 pt-[71px] pb-[45px] ${poppins.className}`}
       >
         {statisticsCards.map((infoItem, index) => (
           <StatisticCard key={+index} {...infoItem} />

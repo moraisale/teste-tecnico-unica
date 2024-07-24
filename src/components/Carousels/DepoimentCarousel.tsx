@@ -23,7 +23,13 @@ export const DepoimentCarousel = () => {
     fetchDepoiments();
 
     const handleResize = () => {
-      setCardsPerSlide(window.innerWidth >= 1024 ? 2 : 1);
+      if (window.innerWidth >= 1280) {
+        setCardsPerSlide(3);
+      } else if (window.innerWidth >= 1024) {
+        setCardsPerSlide(2);
+      } else {
+        setCardsPerSlide(1);
+      }
     };
 
     handleResize(); // Set initial cards per slide
@@ -51,7 +57,7 @@ export const DepoimentCarousel = () => {
   };
 
   return (
-    <div className="px-4 md:px-12 lg:px-24 xl:px-32">
+    <div className="px-4 md:px-12 lg:px-16 xl:px-20">
       <div className="relative flex items-center justify-center">
         <button
           className="absolute left-0 transform -translate-y-1/2 hover:opacity-80 p-2 rounded-l-md"
@@ -72,8 +78,12 @@ export const DepoimentCarousel = () => {
             {depoiments.map((depoiment) => (
               <div
                 key={depoiment.id}
-                className={`flex-shrink-0 w-full ${
-                  cardsPerSlide === 2 ? "lg:w-1/2" : "w-full"
+                className={`flex-shrink-0 px-2 ${
+                  cardsPerSlide === 3
+                    ? "xl:w-1/3"
+                    : cardsPerSlide === 2
+                    ? "lg:w-1/2"
+                    : "w-full"
                 } flex justify-center`}
               >
                 <DepoimentCard depoiment={depoiment} />

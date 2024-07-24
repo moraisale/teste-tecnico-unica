@@ -4,12 +4,19 @@ import { IDepoimentCard } from "../../types/IDepoimentCard";
 
 export const DepoimentCard = ({ depoiment }: IDepoimentCard) => {
   return (
-    <div className="flex flex-col justify-center items-center xl:w-[384px] w-[300px] rounded-md shadow-[10px_10px_#000000]/20 bg-[#A68BFF66]/40 h-full min-h-[416.41px] gap-[51.66px] px-[38.65px]">
-      <p className="text-[9px] font-light text-center h-[160px] leading-[13.5px]">
+    <div className="flex flex-col justify-center items-center rounded-md shadow-lg bg-[#A68BFF66]/40 h-full min-h-[416.41px] gap-6 p-6">
+      <p className="text-[9px] font-light text-center h-[160px] leading-[13.5px] lg:hidden w-[254px] md:w-full">
         {depoiment.text}
       </p>
-      <div className="flex flex-col gap-3">
-        <div className="flex gap-5">
+      <Image
+        className="hidden lg:flex"
+        alt="user-image"
+        src="/images/video-depoiment.svg"
+        width={253}
+        height={135.41}
+      />
+      <div className="flex flex-col gap-3 items-center">
+        <div className="flex gap-5 items-center">
           <Image
             className="rounded-full"
             alt="user-image"
@@ -17,7 +24,7 @@ export const DepoimentCard = ({ depoiment }: IDepoimentCard) => {
             width={54}
             height={54}
           />
-          <div className="flex flex-col pt-2 gap-[9.13px]">
+          <div className="flex flex-col items-center pt-2 gap-2">
             <p className="text-10 font-semibold leading-3">{depoiment.user}</p>
             <p className="text-[7px] font-normal leading-[8.4px]">
               {depoiment.role}

@@ -8,15 +8,15 @@ import { MoreSessionsList } from "./MoreSessionsList";
 
 const socialMediaLinks = [
   {
-    icon: <FaFacebook size={18} color="black" />,
+    icon: <FaFacebook className="text-[18px] lg:text-[41px]" />,
     link: "https://www.facebook.com/UnicaFaculdade",
   },
   {
-    icon: <FaInstagram size={18} color="black" />,
+    icon: <FaInstagram className="text-[18px] lg:text-[41px]" />,
     link: "https://www.instagram.com/faculdadeunica/",
   },
   {
-    icon: <FaYoutube size={18} color="black" />,
+    icon: <FaYoutube className="text-[18px] lg:text-[41px]" />,
     link: "https://www.youtube.com/c/Faculdade%C3%9Anicaoficial",
   },
 ];
@@ -28,8 +28,8 @@ export const Footer = () => {
     <div className="flex flex-col text-black dark:text-white bg-white dark:bg-black  w-full  pt-5">
       <CoursesList />
       <div className="flex flex-col lg:flex-row lg:pt-12 lg:items-end lg:justify-between">
-        <div className="flex flex-col px-6 pt-[73px] lg:pt-0 gap-5 lg:px-[124px] ">
-          <p className="font-bold text-xs lg:text-xl text-black dark:text-white lg:pb-[8px]">
+        <div className="flex flex-col px-6 pt-[73px] lg:pt-0 gap-5 lg:pl-[124px] ">
+          <p className="font-bold text-xs lg:text-xl text-black dark:text-white lg:pb-[12px]">
             Siga nossa faculdade:
           </p>
           <div className="flex gap-2 pb-10">
@@ -40,7 +40,7 @@ export const Footer = () => {
             ))}
           </div>
         </div>
-        <div className="flex flex-col px-6 gap-5 lg:px-[124px] ">
+        <div className="flex flex-col px-6 gap-5 ">
           <p className="font-bold text-xs lg:text-xl text-black dark:text-white">
             Baixe nosso App:
           </p>
@@ -52,6 +52,8 @@ export const Footer = () => {
                 width={92.44}
                 height={28}
                 color="black"
+                className="lg:w-[180px] lg:h-[53.7px]"
+
               />
             </Link>
             <Link href="https://apps.apple.com/br/app/app-prominas/id1523832772">
@@ -61,11 +63,12 @@ export const Footer = () => {
                 width={92.44}
                 height={28}
                 color="white"
+                className="lg:w-[180px] lg:h-[53.7px]"
               />
             </Link>
           </div>
         </div>
-        <div className="flex flex-col lg:flex-row px-6  gap-6 pb-[33px] lg:items-end  lg:pr-[124px]">
+        <div className="flex flex-col lg:flex-row px-6  gap-6 pb-[33px] lg:items-end lg:pr-[124px]">
           <p className="font-bold text-xs lg:text-xl text-black dark:text-white max-w-[170px] lg:max-w-[247px] ">
             Consulte aqui o cadastro da Instituição no Sistema e-MEC
           </p>
@@ -79,6 +82,8 @@ export const Footer = () => {
               width={92.44}
               height={28}
               color="white"
+              className="lg:w-[113px] lg:h-[188px]"
+
             />
           </Link>
           <Link
@@ -91,6 +96,7 @@ export const Footer = () => {
               width={113}
               height={188}
               color="white"
+              
             />
           </Link>
         </div>
