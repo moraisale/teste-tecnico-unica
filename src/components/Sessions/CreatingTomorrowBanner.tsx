@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export const CreatingTomorrowBanner = () => {
   return (
-    <div className="flex flex-col relative h-full w-full min-h-[134px] text-white items-center justify-center mt-10 xl:mt-[140px] 2xl:mt-[240px]">
+    <div className="flex flex-col relative h-full w-full min-h-[134px] text-white items-center justify-center">
       <Image
         alt="geometric black background"
         src="/images/geometric-black-bg.svg"

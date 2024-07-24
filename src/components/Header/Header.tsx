@@ -37,7 +37,7 @@ export const Header = () => {
           />
         </button>
       </div>
-      <SearchBar />
+      {/* <SearchBar /> */}
     </div>
   );
 };

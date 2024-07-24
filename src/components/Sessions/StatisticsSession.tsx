@@ -5,13 +5,13 @@ import { StatisticCard } from "../Cards/StatisticCard";
 
 export const StatisticsSession = () => {
   return (
-    <div className="flex flex-col dark:text-white w-full h-full pt-[101px] px-8  dark:bg-black light:bg-white">
-      <div className="text-center flex flex-col xl:px-[158.5px] gap-[26px] ">
-        <p className="text-xl xl:text-[32px] leading-[26px] xl:leading-[41.6px] dark:text-white">
+    <div className="flex flex-col w-full h-full pt-[101px] bg-white dark:bg-black">
+      <div className="text-center flex flex-col lg:px-[158.5px] gap-[26px] ">
+        <p className="text-xl lg:text-[32px] leading-[26px] lg:leading-[41.6px] text-black dark:text-white">
           Perfeita para você!
         </p>
         <p
-          className={`text-white font-medium text-[15px] xl:text-[22px] text-center leading-[19.5px] xl:leading-[28.6px] ${poppins.className}`}
+          className={`text-black dark:text-white font-medium text-[15px] lg:text-[22px] text-center leading-[19.5px] lg:leading-[28.6px] ${poppins.className}`}
         >
           Há mais de 22 anos, a Faculdade Única transforma vidas por meio da
           educação. Com base na ética e na responsabilidade social, com um preço

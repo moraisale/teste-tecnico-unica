@@ -7,7 +7,7 @@ export const OffertedProductsCard = ({
   text,
 }: IOffertedProductCard) => {
   return (
-    <div className="flex flex-col relative w-full text-white dark:text-white items-center">
+    <div className="flex flex-col relative w-full text-white  items-center">
       <Image
         alt="info-card"
         src={imageURL}

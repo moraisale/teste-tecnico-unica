@@ -5,13 +5,13 @@ import { offertedProducts } from "@/helpers/offertedProducts";
 
 export const UniqueJourneySession = () => {
   return (
-    <div className="flex flex-col w-full text-center">
+    <div className="flex flex-col w-full text-center bg-white dark:bg-black">
       <div className="flex flex-col gap-1 lg:gap-8">
-        <p className="text-xl lg:text-[32px] leading-[26px] lg:leading-[px52]">
+        <p className="text-xl text-black dark:text-white lg:text-[32px] leading-[26px] lg:leading-[px52]">
           Sua jornada é Única
         </p>
         <p
-          className={`text-[15px] lg:text-[30px] leading-6 lg:leading-[px52] ${poppins.className}`}
+          className={`text-[15px] lg:text-[30px] leading-6 lg:leading-[px52] text-black dark:text-white ${poppins.className}`}
         >
           Escolha a melhor modalidade para você!
         </p>

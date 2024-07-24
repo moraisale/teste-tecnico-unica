@@ -6,7 +6,7 @@ import { DepoimentCarousel } from "../Carousels/DepoimentCarousel";
 export const DepoimentsSession = () => {
   return (
     <div
-      className={`flex flex-col w-full h-full min-h-[616px] text-white relative dark:text-white  ${poppins.className}`}
+      className={`flex flex-col w-full h-full min-h-[616px] text-white relative  ${poppins.className}`}
     >
       <div className="absolute bg-[#7500FF] w-full h-full min-h-[616px]" />
       <p className="font-normal text-xl lg:text-[32px] text-center pb-12 leading-[22px] px-8 pt-[51px] z-[99] lg:hidden">

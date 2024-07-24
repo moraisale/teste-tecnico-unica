@@ -34,7 +34,7 @@ const moreSessionsList = [
 
 export const MoreSessionsList = () => {
   return (
-    <div className="flex flex-col lg:flex-row lg:flex-wrap lg:justify-start lg:gap-[58px] text-[10px] font-medium leading-[22.32px] px-6 py-[19px] text-white border-t-2 pb-[60px] lg:px-[124px] whitespace-nowrap">
+    <div className="flex flex-col lg:flex-row lg:flex-wrap lg:justify-start lg:gap-[58px] text-[10px] font-medium leading-[22.32px] px-6 py-[19px] text-black dark:text-white bg-white dark:bg-black border-t-2 border-black dark:border-white pb-[60px] lg:px-[124px] whitespace-nowrap">
       {moreSessionsList.map((item, index) => (
         <Link key={index} href={item.url} className="lg:text-sm">
           {item.title}
