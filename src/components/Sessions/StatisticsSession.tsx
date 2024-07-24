@@ -11,7 +11,7 @@ export const StatisticsSession = () => {
           Perfeita para você!
         </p>
         <p
-          className={`text-black dark:text-white font-medium text-[15px] lg:text-[22px] text-center leading-[19.5px] lg:leading-[28.6px] ${poppins.className}`}
+          className={`text-black dark:text-white font-medium text-[15px] lg:text-[22px] px-6 text-center leading-[19.5px] lg:leading-[28.6px] ${poppins.className}`}
         >
           Há mais de 22 anos, a Faculdade Única transforma vidas por meio da
           educação. Com base na ética e na responsabilidade social, com um preço
