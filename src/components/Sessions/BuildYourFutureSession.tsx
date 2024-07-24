@@ -12,7 +12,7 @@ export const BuildYourFutureSession = () => {
             Construa seu amanhã conosco
           </p>
           <p
-            className={`text-black dark:text-white font-medium text-[15px] pb-[34px] xl:pb-0 xl:text-[22px] text-center xl:text-start leading-[19.5px] xl:leading-[28.6px]${poppins.className}`}
+            className={`text-black dark:text-white font-medium text-[15px] pb-[34px] lg:pb-0 lg:text-[22px] text-center lg:text-start leading-[19.5px] lg:leading-[38.6px] ${poppins.className}`}
           >
             Com foco em inovação e qualidade, seja nos cursos presenciais ou
             online, utilizamos as mais modernas tecnologias para uma comunicação
