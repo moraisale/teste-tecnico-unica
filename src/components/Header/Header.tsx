@@ -18,7 +18,7 @@ export const Header = () => {
 
   return (
     <div className="hidden lg:flex flex-col">
-      <div className=" bg-black flex opacity-70 justify-between py-10 px-[123px] items-center h-[35px]">
+      <div className="bg-black flex justify-between py-10 px-[123px] items-center h-[35px]">
         {menuHeader.map((item, index) => (
           <Link
             className="text-white font-normal lg:text-xs xl:text-[17px] leading-5 max-w-min"
