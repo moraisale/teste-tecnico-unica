@@ -1,5 +1,5 @@
-import { IDepositionData } from "./IDepoimentData";
+import { IDepoimentData } from "./IDepoimentData";
 
 export interface IDepoimentCard {
-    depoiment: IDepositionData;
-  }
+  depoiment: IDepoimentData;
+}
