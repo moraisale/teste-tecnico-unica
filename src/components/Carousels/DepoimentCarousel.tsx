@@ -73,6 +73,7 @@ export const DepoimentCarousel = () => {
               transform: `translateX(-${
                 currentIndex * (100 / cardsPerSlide)
               }%)`,
+              width: `${100 * (depoiments.length / cardsPerSlide)}%`,
             }}
           >
             {depoiments.map((depoiment) => (
