@@ -11,7 +11,7 @@ export const DepoimentCarousel = () => {
 
   const fetchDepoiments = async () => {
     try {
-      const response = await fetch("http://localhost:3000/api");
+      const response = await fetch("/api");
       const data = await response.json();
       setDepoiments(data.documents);
     } catch (error) {
