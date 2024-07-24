@@ -1,4 +1,4 @@
-import { IStatisticCard } from "@/components/types/IStatisticCard";
+import { IStatisticCard } from "@/types/IStatisticCard";
 
 export const statisticsCards: IStatisticCard[] = [
   {

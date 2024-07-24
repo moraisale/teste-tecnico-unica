@@ -5,9 +5,9 @@ import { StatisticCard } from "../Cards/StatisticCard";
 
 export const StatisticsSession = () => {
   return (
-    <div className="flex flex-col dark:text-black w-full h-full pt-[42px] px-8">
+    <div className="flex flex-col dark:text-white w-full h-full pt-[101px] px-8  dark:bg-black light:bg-white">
       <div className="text-center flex flex-col xl:px-[158.5px] gap-[26px] ">
-        <p className="text-xl xl:text-[32px] leading-[26px] xl:leading-[41.6 px] text-white">
+        <p className="text-xl xl:text-[32px] leading-[26px] xl:leading-[41.6px] dark:text-white">
           Perfeita para você!
         </p>
         <p
@@ -21,7 +21,7 @@ export const StatisticsSession = () => {
         </p>
       </div>
       <div
-        className={`flex flex-col items-center xl:flex-row xl:justify-center gap-9 pt-12 pb-[45px] ${poppins.className}`}
+        className={`flex flex-col items-center xl:flex-row xl:justify-center gap-9 pt-[71px] pb-[45px] ${poppins.className}`}
       >
         {statisticsCards.map((infoItem, index) => (
           <StatisticCard key={+index} {...infoItem} />

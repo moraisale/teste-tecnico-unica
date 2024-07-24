@@ -1,4 +1,4 @@
-import { IOffertedProductCard } from "@/components/types/IOffertedProducts";
+import { IOffertedProductCard } from "@/types/IOffertedProducts";
 
 export const offertedProducts: IOffertedProductCard[] = [
   {

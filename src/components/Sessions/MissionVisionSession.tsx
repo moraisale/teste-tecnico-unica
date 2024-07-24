@@ -12,7 +12,7 @@ export const MissionVisionSession = () => {
       <p className="text-xl text-white pt-[84px] pb-[53px]">
         Mais que educação, uma transformação
       </p>
-      <div className="flex xl:flex-row xl:justify-center xl:gap-5 flex-col gap-12 pb-[45px]">
+      <div className="flex xl:flex-row xl:justify-center xl:gap-5 flex-col gap-12 pb-[45px] lg:pb-[181px]">
         {missionVisionValuesCard.map((card, index) => (
           <div key={index}>
             <img src={card} className="h-full w-full" alt={`${index + 1}`} />

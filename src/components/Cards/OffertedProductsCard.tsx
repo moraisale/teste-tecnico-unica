@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import { IOffertedProductCard } from "../types/IOffertedProducts";
+import { IOffertedProductCard } from "../../types/IOffertedProducts";
 
 export const OffertedProductsCard = ({
   imageURL,
